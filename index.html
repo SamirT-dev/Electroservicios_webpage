@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electroservicios - Satisfacción garantizada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/src/assets/css/styles.css">
+    <link rel="shortcut icon" href="/src/assets/logo_title.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- HEADER ESTÁTICO -->
+    <header>
+        <div class="logo-container">
+            <a href="#" class="logo">
+                <i class="fas fa-snowflake"></i>
+                <span class="logo-text">Electroservicios</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- CARRUSEL DE IMÁGENES -->
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="/src/img/arranque_directo_selector.jpg" alt="arranque_directo_selector">
+            <img src="/src/img/reparacion_cubiertas_empotradas.jpg" alt="Reparación de cubiertas empotradas">
+            <img src="/src/img/reparacion_tv_led.jpg" alt="Reparación de televisores LED">
+            <img src="/src/img/sensor_transductor_transmisor.jpg" alt="Sensor, transductor, transmisor">
+            <img src="/src/img/electroservicios_1.png" alt="Instalación de equipos">
+        </div>
+        <div class="carousel-overlay">
+            <h1>Servicios de Reparación y Mantenimiento Profesional</h1>
+            <p>Especialistas en refrigeración y electrodomésticos con más de 15 años de experiencia garantizando la calidad de nuestros servicios.</p>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section class="about">
+            <h2>Sobre Nuestros Servicios</h2>
+            <p>Somos una empresa especializada en la reparación y mantenimiento de equipos de refrigeración y electrodomésticos. Contamos con técnicos certificados y amplia experiencia en el sector, ofreciendo soluciones rápidas y eficaces para garantizar el funcionamiento óptimo de sus equipos.</p>
+            <p>Nuestro compromiso es brindar un servicio de calidad, con repuestos originales y garantía en todos nuestros trabajos.</p>
+        </section>
+
+        <section class="services-section">
+            <h2>Nuestros Servicios</h2>
+            <div class="services">
+                <div class="service-card">
+                    <i class="fas fa-refrigerator"></i>
+                    <h3>Reparación de Refrigeradores</h3>
+                    <p>Diagnóstico y reparación de todo tipo de refrigeradores, congeladores y cavas.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-wind"></i>
+                    <h3>Aire Acondicionado</h3>
+                    <p>Mantenimiento, limpieza e instalación de sistemas de aire acondicionado.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-blender"></i>
+                    <h3>Electrodomésticos</h3>
+                    <p>Reparación de lavadoras, secadoras, hornos microondas y otros electrodomésticos.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>Programas de mantenimiento periódico para alargar la vida útil de sus equipos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Solicita Nuestros Servicios</h2>
+            <div class="form-container">
+                <form id="serviceRequestForm">
+                    <div class="form-group">
+                        <label for="name">Nombres y Apellidos *</label>
+                        <input type="text" id="name" name="name" required placeholder="Ej: Juan Pérez">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required placeholder="Ej: juan.perez@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Número de Celular *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Ej: 300 123 4567">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="requirement">Requerimiento *</label>
+                        <select id="requirement" name="requirement" required>
+                            <option value="">Seleccione el tipo de servicio</option>
+                            <option value="refrigeracion">Reparación de Refrigeración</option>
+                            <option value="aire-acondicionado">Mantenimiento de Aire Acondicionado</option>
+                            <option value="electrodomesticos">Reparación de Electrodomésticos</option>
+                            <option value="instalacion">Instalación de Equipos</option>
+                            <option value="mantenimiento">Mantenimiento Preventivo</option>
+                            <option value="otro">Otro servicio</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Descripción Detallada</label>
+                        <textarea id="message" name="message" placeholder="Describa el problema o servicio requerido..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar Solicitud</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER CON EFECTO -->
+    <footer id="mainFooter">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Electroservicios</h3>
+                <p>Especialistas en reparación y mantenimiento de equipos de refrigeración y electrodomésticos.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100069875095031&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Felectroservicios_cucuta%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExZnc2NE9UM2N0UkQ0ZWdvWHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7tjNK95VbZyMtOnV2ou7dCbSHyQgfuCz-UYnk-aImd7j2eKiWUb1lyJoMIfw_aem_SkOYOdZgQBqJ7pDJQeiWeg&h=AT0uD30q6uXYX9A0FWPXU7W6t3PlOL-2rRoHVN4b8lCfA145P6jltZlnMfRCoiDDv2gpVrV0eqOmO8jCPg-ktSTJLdCSkfzo_ZjZujvJHNtFV9Bi6DALHBjncxACK8p3pteazA"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/573016774907?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Principal #123, San José de Cúcuta</p>
+                <p><i class="fas fa-phone"></i> (57) 301 6774907</p>
+                <p><i class="fas fa-envelope"></i> electroserviciosgarantizados@gmail.com</p>
+                <p><i class="fas fa-clock"></i> Lunes a Sábado: 8:00 am - 6:00 pm</p>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 SamirT_dev. Todos los derechos reservados.</p><br>
+            <p>Desarrollado por SamirT_dev</p>
+            <p>Contacto:  3025417891</p>
+        </div>
+    </footer>
+
+    <script src="/src/assets/javascript/script.js"></script>
+</body>
+</html>
